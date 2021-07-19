@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #3C5998;       
+}
+
+.container {
+    text-align: center;
+    padding: 2em;   
+    height: 100%
+}
+
+.header {
+    width: 100%;
+    object-fit: cover;
+}
+
+.subtitle {
+    margin-top: 0.5em;
+    font-size: 1.5rem;
+    color: #3C5998;
+}
+
+.cat-basket {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.profile,
+.pic {
+    border-radius: 10px;
+}
+
+.profile {
+    width: 250px;
+    padding: 1em;
+    background-color: #b4c3e2;
+    color: white;
+    cursor: pointer;
+}
+
+.pic {
+    height: 200px;
+    width: 170px;
+    margin: 0 auto;
+}
+
+button {
+    margin-top: 1em;
+    padding: 8px 25px;
+    font-size: 1rem;
+    border-radius: 25px;
+    color: #3C5998;
+}
+
+button:hover {
+    background-color: #5b79b9;
+    color: white;
+    font-weight: bold;
+    
+
+}
